@@ -19,7 +19,6 @@ function init(){
         let uniq=""
         switch (role){
             case "Intern":
-                console.log("intern")
                 uniq = await inquirer.prompt(school)
                 employees.push(new intern.Intern(name, id, email, role, uniq))
                 break;

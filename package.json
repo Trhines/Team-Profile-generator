@@ -1,14 +1,19 @@
 {
   "name": "team-profile-generator",
   "version": "1.0.0",
-  "description": "Creates employee profiles generated from inquirer",
+  "description": "Generate profiles from command prompt",
   "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "tests"
   },
+  "dependencies": {
+    "inquirer": "^8.1.0",
+    "jest": "^27.0.4"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/Trhines/Team-Profile-generator/issues"
   },
-  "homepage": "https://github.com/Trhines/Team-Profile-generator#readme",
-  "dependencies": {
-    "inquirer": "^8.1.0"
-  }
+  "homepage": "https://github.com/Trhines/Team-Profile-generator#readme"
 }
