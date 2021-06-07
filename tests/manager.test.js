@@ -3,7 +3,7 @@ const manager = require('../lib/manager.js')
 
 describe("For Employee class, each get function should return its corresponding value", () => {
     
-    let bob = new manager.Manager('Bob', 1234, 'test@2mail.com', 'Intern', 12)
+    let bob = new manager.Manager('Bob', 1234, 'test@2mail.com', 12)
     
     it("Should return 'Bob'", ()=>{
         expect(bob.getName()).toBe((bob.name))
@@ -17,7 +17,7 @@ describe("For Employee class, each get function should return its corresponding 
         expect(bob.getEmail()).toBe((bob.email))
     });
 
-    it("Should return 'Intern'", ()=>{
+    it("Should return 'Manager'", ()=>{
         expect(bob.getRole()).toBe((bob.role))
     });
 

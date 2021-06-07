@@ -3,7 +3,7 @@ const engineer = require('../lib/engineer.js')
 
 describe("For Employee class, each get function should return its corresponding value", () => {
     
-    let bob = new engineer.Engineer('Bob', 1234, 'test@2mail.com', 'Engineer', 'gitUser')
+    let bob = new engineer.Engineer('Bob', 1234, 'test@2mail.com', 'gitUser')
     
     it("Should return 'Bob'", ()=>{
         expect(bob.getName()).toBe((bob.name))
